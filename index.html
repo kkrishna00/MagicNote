@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MagicNote</title>
+    <link rel="stylesheet" href="design.css">
+    <link rel="stylesheet "href="phone.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ranchers&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@800&family=Ranchers&family=Redressed&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="navbar">
+        <ul>
+            <h1>Magic Note</h1>
+            <li><a href="#current">Home</a></li>
+            <li><a href="#current">Contact Us</a></li>
+        </ul>
+        <form class="srch">
+            <input type="text" placeholder="Search Notes" id="search">
+            <button id="bttn">Search</button>
+        </form>
+    </nav>
+    <div class="Mainhome">
+        <hr class="hr-primary">
+        <h1 id="h1-primary">Welcome To Magic Notes</h1>
+        <div id="textbox">
+            <p>Add a Note</p>
+            <textarea name="write" id="textarea" cols="80" rows="7"></textarea>
+            <br>
+            <button id="bttnprimary">Add Note</button>
+        </div>
+        <hr class="hr-primary">
+        <h1>Your Notes</h1>
+        <hr class="hr-primary">
+        <div id="notesoperation"></div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,136 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: green;
+    padding: 8px;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+}
+.navbar h1
+{
+    margin: 0px 15px;
+}
+.navbar ul
+{
+    display: flex;
+    margin:5px;
+}
+.navbar ul li
+{
+    list-style: none;
+    padding: 5px;
+}
+.navbar ul li a
+{
+    text-decoration: none;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid green;
+    border-radius: 8px;
+    color: green;
+    background-color: black;
+}
+.srch
+{
+    margin-right: 20px; 
+}
+#search
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 0px 7px;
+    margin: 0px 3px;
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    background-color: black;
+    color: whitesmoke;
+}
+#bttn
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    padding: 0px 14px;
+    margin: 0px 6px;
+    font-size: 20px;
+    border: 2px solid green;
+    border-radius: 8px;
+    color: green;
+    background-color: black;
+    cursor: pointer;
+}
+.Mainhome
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    display: inline-block;
+    margin: 30px 180px;
+}
+#textbox
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    border: 5px solid whitesmoke;
+}
+#textbox p
+{
+    margin-left: 17px;
+}
+#textarea
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 5px 20px 5px 20px;
+}
+.hr-primary
+{
+    margin-top: 20px;
+}
+#bttnprimary
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 0px 8px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    white-space: nowrap;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+.bttnprimar
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    margin: 0px 0px 8px 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+    display: inline-block;
+    white-space: nowrap;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+    cursor: pointer;
+}
+#notesoperation
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: inherit;
+    margin: 5px;
+}
+.Notescontainer
+{
+    font-family: 'Baloo Bhai 2', cursive;
+    border: 5px solid whitesmoke;
+    margin: 5px;
+}
+.textbox2
+{
+    width: 225px;
+    word-wrap: break-word;
+    padding: 1.25rem;
+    padding-bottom:2px ;
+}
